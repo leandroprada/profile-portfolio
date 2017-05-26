@@ -1,0 +1,209 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Open Sans",sans-serif;
+}
+
+.bg{
+position: fixed;
+top: 10px;
+  z-index: 1;
+}
+
+.imagenDeFondo {
+  width:100%;
+}
+ul {
+  list-style:  none;
+}
+
+article {
+  display: inline-block;
+}
+
+h2, h4 {
+  color: lightgrey;
+}
+
+.close_button{
+  font-size: 0.8em;
+text-align: right;
+padding-right: 10px;
+color: #fff;
+}
+
+a {
+  color: lightgrey;
+}
+
+a :hover {
+  text-decoration: none;
+  background-color: lightgrey;
+  color: black;
+}
+
+.newswires, .mediaBuzz, .profiles, .cv, .contact, .fullsite {
+  text-align: left;
+  background-color: rgba(53, 53, 52, 0.75);
+  position:absolute;
+  display:none;
+
+  border: 1px black;
+  border-style: outset;
+  border-radius: 20px;
+  padding:30px;
+  z-index: 10;
+}
+
+.newswires {
+  top: 20px;
+  left: 50px;
+width:600px;
+}
+
+.mediaBuzz{
+top: 30px;
+left: 75px;
+width: 900px;
+font-size: 0.9em;
+}
+
+.media1 {
+  float:left;
+  width:350px;
+}
+
+.media2 {
+  float: right;
+  width: 350px;
+}
+
+.profiles {
+  top: 5px;
+  left: 800px;
+width:320px;
+text-align: left;
+}
+
+.profiles img {
+height:120px;
+padding: 5px;
+border-radius: 25px;
+}
+
+.cv {
+  bottom:5px;
+  left:5px;
+}
+
+.contact{
+  top: 5px;
+  right:200px;
+  text-shadow: 2px 1px black;
+}
+
+.contact-details img{
+height:60px;
+
+}
+
+.contact-details h2 {
+  display:inline-block;
+}
+
+
+.iconos_contacto {
+  font-size: 2em;
+}
+
+/*css importado de v2.5*/
+.ion-android-pin {
+  color: red;
+
+
+}
+
+.ion-social-whatsapp {
+
+  color: rgb(52,175,35);
+
+}
+
+.ion-android-mail {
+
+  color: #dcb415;
+}
+
+.ion-social-skype{
+
+
+  color: #03a9f4;
+  font-weight: bolder;
+}
+/*fin de css importados*/
+
+.fullsite {
+  top: 5px;
+  left:5px;
+
+
+}
+.hints, .contHints {
+  padding-top: 10px;
+  text-align: center;
+  position: fixed;
+  right:10px;
+  z-index: 20;
+  display:block;
+
+}
+
+
+.hint1, .hint2, .hint3, .hint4, .hint5, .hint6 {
+display: none;
+padding: 10px;
+text-shadow: 1px 2px black;
+
+}
+.hide6 {
+display: block;
+padding: 10px;
+text-shadow: 1px 2px black;
+
+}
+.bg1, .bg2, .bg3, .bg4, .bg5, .bg6 {
+  position: fixed;
+  width: 1200px;
+  display: none;
+z-index: 2;
+opacity:0.25;
+}
+
+
+
+
+iframe {
+width: 1190px;
+height: 640px;
+
+        -ms-zoom: 0.8;
+        -moz-transform: scale(0.8);
+        -moz-transform-origin: 0 0;
+        -o-transform: scale(0.8);
+        -o-transform-origin: 0 0;
+        -webkit-transform: scale(0.8);
+        -webkit-transform-origin: 0 0;
+    }
+
+
+.hideWindows {
+  position: fixed;
+  right:5px;
+  bottom: 10px;
+  z-index: 20;
+}
