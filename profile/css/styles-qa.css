@@ -73,6 +73,7 @@ html, body {
 body {
     margin: 0;
     font-family: 'Nunito', sans-serif;
+
 }
 
 /*
@@ -188,8 +189,8 @@ code, kbd, pre, samp {
 * Improves readability of pre-formatted text in all browsers.
 */
 pre {
-    white-space: pre;
-    white-space: pre-wrap;
+    black-space: pre;
+    black-space: pre-wrap;
     word-wrap: break-word;
 }
 
@@ -315,7 +316,7 @@ fieldset {
 legend {
     padding: 0;
     border: 0; /* 1 */
-    white-space: normal; /* 2 */
+    black-space: normal; /* 2 */
     *margin-left: -7px; /* 3 */
 }
 
@@ -384,7 +385,7 @@ input[type="search"] {
     /* 2 */
     box-sizing: content-box;
     -webkit-appearance: textfield; /* 1 */
-    nowhitespace: afterproperty;
+    noblackspace: afterproperty;
 }
 
 /*
@@ -449,10 +450,10 @@ p {
     line-height: 25px;
 }
 a {
-    color: #73d0da
+    color: black
 }
 a:hover, a:focus {
-    color: #73d0da;
+    color: black;
     text-decoration: none;
 }
 .texture-overlay {
@@ -472,26 +473,26 @@ Buttons
     margin: 0 10px 10px 0;
     padding: 20px 50px;
     border-radius: 3px;
-    background-color: #fff;
+    background-color: #000;
     color: #4b98a9;
     font-size: 16px;
 }
 .use-btn:hover, .use-btn:focus {
-    background-color: #73d0da;
-    color: #fff;
+    background-color: black;
+    color: #000;
     text-decoration: none;
 }
 .learn-btn, .download-btn {
     display: inline-block;
     padding: 18px 46px;
-    border: 2px solid #fff;
+    border: 2px solid #000;
     border-radius: 3px;
-    color: #fff;
+    color: #000;
     font-size: 16px;
 }
 .learn-btn:hover, .download-btn:hover, .learn-btn:focus, .download-btn:focus {
-    border-color: #73d0da;
-    color: #73d0da;
+    border-color: black;
+    color: black;
     text-decoration: none;
 }
 .read-more-btn {
@@ -531,7 +532,7 @@ Navigation
     width: 35px;
     height: 5px;
     border-radius: 1px;
-    background: #fff;
+    background: #000;
     cursor: pointer;
 }
 .nav-toggle span:before {
@@ -583,7 +584,7 @@ Hero
     min-height: 800px;
     background: rgb(40, 70, 102) url('../img/hero-01-qa.jpg') no-repeat center center;
     background-size: cover;
-    color: #fff;
+    color: #000;
 }
 .hero h1 {
     margin: 200px 0 45px 0;
@@ -629,11 +630,11 @@ section.video a {
     color: #323a45
 }
 section.video a:hover, section.video a:focus {
-    color: #73d0da;
+    color: black;
     text-decoration: none;
 }
 section.video a:hover i, section.video a:focus i {
-    color: #73d0da
+    color: black
 }
 
 /* ==========================================================================
@@ -644,12 +645,12 @@ Custom Slider Controls (Flickity)
     height: 13px;
     opacity: 1;
     background: transparent;
-    border: 2px solid white;
+      border: 2px solid black;
     -webkit-transition: background 0.3s;
     transition: background 0.3s;
 }
 .flickity-page-dots .dot.is-selected {
-    background: white;
+    background: black;
 }
 
 /* ==========================================================================
@@ -671,8 +672,8 @@ Features Slider
     position: relative;
     padding: 11% 100px 10% 100px;
     height: 400px;
-    background-color: #5abca4;
-    color: #fff;
+    background-color: #bebfbf;
+    color: #000;
 }
 .features-slider ul {
     margin: 0;
@@ -684,12 +685,12 @@ Features Slider
 }
 .features-slider li h1 {
     margin-bottom: 15px;
-    color: #fff;
+    color: #000;
     font-weight: 400;
     font-size: 22px;
 }
 .features-slider li p {
-    color: #fff;
+    color: #000;
     font-size: 14px;
 }
 .features-intro-img {
@@ -782,13 +783,13 @@ Showcase
 }
 .showcase h1 {
     margin: 0 0 20px 0;
-    color: #fff;
+    color: #000;
     font-weight: 400;
     font-size: 22px;
 }
 .showcase p {
     margin-bottom: 25px;
-    color: #fff;
+    color: #000;
 }
 .device {
     position: absolute;
@@ -887,10 +888,10 @@ Screenshots
     transition: all 300ms ease-in-out;
 }
 .screenshots figcaption a {
-    color: #fff
+    color: #000
 }
 .screenshots figcaption a:hover, .screenshots figcaption a:focus {
-    color: #73d0da
+    color: black
 }
 .screenshots figure:hover figcaption, .screenshots figure:focus figcaption {
     opacity: 1
@@ -933,11 +934,11 @@ Download Now
 ========================================================================== */
 .download {
     padding: 120px 0;
-    background-color: #5abca4;
+    background-color: #bebfbf;
 }
 .download h1 {
     margin: 0 0 15px 0;
-    color: #fff;
+    color: #000;
     font-weight: 400;
     font-size: 40px;
 }
@@ -1018,10 +1019,10 @@ Nav Overlay
     display: block;
     padding: 50px 0;
     min-width: 190px;
-    border: 2px solid #fff;
+    border: 2px solid #000;
     border-radius: 3px;
     background-color: #345271;
-    color: #fff;
+    color: #000;
     text-transform: uppercase;
     font-weight: 400;
     font-size: 15px;
@@ -1029,8 +1030,8 @@ Nav Overlay
     transition: all 300ms ease-in-out;
 }
 .overlay ul li a:hover, .overlay ul li a:focus {
-    border-color: #73d0da;
-    color: #73d0da;
+    border-color: black;
+    color: black;
 }
 
 /* Effects */
