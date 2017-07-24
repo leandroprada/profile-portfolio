@@ -449,10 +449,11 @@ p {
     line-height: 25px;
 }
 a {
-    color: #73d0da
+    color: #16442c
 }
 a:hover, a:focus {
-    color: #73d0da;
+    color: #2f9660;
+    font-weight: bolder;
     text-decoration: none;
 }
 .texture-overlay {
@@ -580,7 +581,7 @@ Hero
 .hero-i {
     position: relative;
     padding: 60px 0 60px 0;
-    min-height: 800px;
+    min-height: 650px;
     background: rgb(40, 70, 102) url('../img/hero-01.jpg') no-repeat center center;
     background-size: cover;
     color: #fff;
@@ -589,7 +590,7 @@ Hero
 .hero {
     position: relative;
     padding: 60px 0 60px 0;
-    min-height: 800px;
+    min-height: 650px;
     background: rgb(40, 70, 102) url('../img/hero.jpg') no-repeat center center;
     background-size: cover;
     color: #fff;
@@ -1103,4 +1104,27 @@ Waypoints
 .delay-1s {
     -webkit-animation-delay: 1s;
     animation-delay: 1s;
+}
+
+.none {
+  float:none;
+  text-align: center;
+}
+
+.none a {
+  text-decoration: none;
+}
+
+.none a:hover{
+  color: grey;
+  font-weight: bold;
+  text-shadow: black 1px 1px
+}
+
+.bottom {
+  float: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  text-align: center;
 }
