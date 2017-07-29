@@ -674,21 +674,21 @@ Features Slider
     background-color: #5abca4;
     color: #fff;
 }
-.features-slider ul {
+.features-slider-trs ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
-.features-slider ul li {
+.features-slider-trs ul li {
     width: 100%;
 }
-.features-slider li h1 {
+.features-slider-trs li h1 {
     margin-bottom: 15px;
     color: #fff;
     font-weight: 400;
     font-size: 22px;
 }
-.features-slider li p {
+.features-slider-trs li p {
     color: #fff;
     font-size: 14px;
 }
@@ -699,12 +699,12 @@ Features Slider
     margin: 0;
     padding: 0;
 }
-.features-slider .flickity-page-dots {
+.features-slider-trs .flickity-page-dots {
     text-align: left;
     margin-top: 50px;
     position: static;
 }
-.features-slider .flickity-page-dots .dot {
+.features-slider-trs .flickity-page-dots .dot {
     margin: 0 12px 0 0;
 }
 
