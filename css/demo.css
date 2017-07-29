@@ -411,7 +411,7 @@ a:focus {
 
 /* rudras */
 .content--rudras {
-	background-color: #c7ceda;
+	background-color: #dad0c7;
 	color: #9fa7b5;
 }
 
@@ -420,19 +420,19 @@ a:focus {
 }
 
 .folder--rudras .folder__icon-img--back {
-	color: #353637;
+	color: #dc8120;
 }
 
 .folder--rudras .folder__icon-img--cover {
-	color: #505153;
+	color: #2b1907;
 }
 
 .folder--rudras .folder__icon-svg--deco {
-	color: #c7ceda;
+	color: #dc8120;
 }
 
 .folder--rudras .folder__caption {
-	color: #2c67cd;
+	color: #dc8120;
 }
 
 /* ardra */
@@ -532,15 +532,15 @@ a:focus {
 }
 
 .folder--hari .folder__icon-img--cover {
-	color: #1025ee;
+	color: #ccbbfb;
 }
 
 .folder--hari .folder__icon-svg--deco {
-	color: #0e1da7;
+	color: #0c1dc0;
 }
 
 .folder--hari .folder__caption {
-	color: #f9dd48;
+	color: #ccbbfb;
 	transition: opacity 0.2s;
 }
 
