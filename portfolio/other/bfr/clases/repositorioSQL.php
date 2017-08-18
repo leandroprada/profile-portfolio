@@ -8,7 +8,7 @@
 		private $conn;
 
 		public function __construct() {
-			$dsn = 'mysql:host=localhost;dbname=bfr;charset=utf8mb4;port=3306';
+			$dsn = 'mysql:host=162.243.168.196;dbname=bfr;charset=utf8mb4;port=3306';
 
 			$user = "root";
 			$pass = "";
