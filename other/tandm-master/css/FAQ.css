@@ -1,0 +1,168 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color:white;
+  background-color: #78A4B3;
+}
+.navbar-brand{
+  font-family: 'Lobster Two', cursive;
+  font-size: 2em;
+}
+
+
+.sidebar {
+  position:fixed;
+  margin-top: 50px;
+  width:100px;
+  border: inset 1px purple;
+
+}
+#mainNav{
+  background-color: rgba(0, 0, 0, 0.5);
+  border-color:white;
+  border-radius: 5px;
+  color:white;
+  /*position: fixed;*/
+  width: 100%;
+  /*z-index: 1000;*/
+}
+.navbar-default .navbar-brand {
+ color:white;
+}
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    font-weight: bold;
+}
+button a{
+  text-decoration: none;
+  color: #fff;
+}
+.navbar{
+  margin-bottom: 0px;
+}
+.navbar-btn{
+  border: 1px solid white;
+  margin-left: 15px;
+  background-color: inherit;
+  color: white;
+  font-weight: bolder;
+
+
+}
+
+
+.btnposts{
+text-decoration:none;
+background-color:#667490;
+border-radius: 8px;
+  width:250px;
+  text-shadow: 1px 1px grey;
+  color:lightblue;
+  border-color: gray;
+  border: solid 1px gray;
+  font-size: 1.1em;
+outline-color: black;
+}
+
+.btnposts:hover, {
+  color: white;
+}
+.btn-default:focus, .btn-default.focus {
+  color: white;
+  background-color:transparent;
+  border-color:white;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus{
+  outline: none;
+}
+
+.boton-titulos{
+  border: 1px inset grey;
+  margin-left: 15px;
+  background-color: #78A4B3;
+  color: black;
+  /*font-weight: bolder;*/
+  width:300px;
+  padding: 0;
+  border-radius: 8px;
+}
+.boton-alargado{
+  border: 1px solid white;
+  margin-left: 15px;
+  background-color: inherit;
+  color: white;
+  font-weight: bolder;
+  width:150px;
+  border-radius: 8px;
+}
+.logowill{
+  float:left;
+  display:block;
+  margin:0 23%;
+  margin-top: 10.8%;
+  width:55%;
+  height:350px;
+}
+.logowill img{
+  height: 80%;
+  width: 80%;
+  display: block;
+}
+
+.registro {
+  margin-top: 50px;
+  color:  rgba(0, 0, 0, 0.5);
+
+}
+#myModal, #myModal2{
+  color: black;
+}
+.modal-backdrop {
+  z-index: 1;
+}
+.facebooklogin{
+  border-bottom: 1px solid grey;
+  height: 50px;
+}
+.willholidaylogin, .willholidayregister{
+  margin-top: 20px;
+}
+.itemsloginwillholiday{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.willholidaybrand{
+  font-family: 'Lobster Two', cursive;
+  font-size: 40px;
+}
+#enter, #submitregister{
+  width:150px;
+}
+.modal-body-register{
+  padding-top: 0px;
+}
+.facebookrecomendation{
+  font-size: 10px;
+}
+
+.cuerpo{
+  color:black;
+}
+.titulo{
+  color: white;
+  font-size: 3.5em;
+  font-weight: normal;
+  margin-top: 80px;
+}
+.panel-group{
+  margin-top: 40px;
+}
+.opciondecontacto{
+  margin-top:100px;
+  font-size: 1.3em;
+}
+@media only screen and (max-width: 764px) {
+  .titulo {
+        font-size:2em;
+    }
+}

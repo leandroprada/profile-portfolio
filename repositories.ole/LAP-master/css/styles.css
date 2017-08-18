@@ -1,0 +1,375 @@
+
+
+body {
+  /*margin: auto;*/
+font-family: 'Titillium web', sans-serif;
+
+}
+
+#container {
+  margin: 20px auto 0;
+}
+/* Profile container */
+.profile {
+  margin: 20px 0;
+
+}
+
+/* Profile sidebar */
+.profile-sidebar {
+  margin: 20px 0 10px 0;
+  /*background: transparent;*/
+  /*border: 1px inset lightgrey;*/
+  /*border-radius: 25px;*/
+
+}
+
+.profile-userpic img {
+  float: none;
+  margin: 0 auto;
+  /*width: 50%;
+  height: 50%;*/
+  -webkit-border-radius: 15% !important;
+  -moz-border-radius: 15% !important;
+  border-radius: 15% !important;
+  z-index: 0;
+box-shadow: 5px 5px 5px #888888;
+}
+
+
+.profile-userpic:hover img{
+  animation-name: ComeToMe;
+     -webkit-animation-name: ComeToMe;
+     animation-duration: 2.5s;
+     animation-iteration-count: 2;
+     animation-direction: alternate;
+     -webkit-animation-duration: 2.5s;
+     animation-timing-function: ease-in-out;
+     -webkit-animation-timing-function: ease-in-out;
+
+}
+
+.profile-usertitle {
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+.profile-usertitle-name {
+  color: black;
+  text-shadow: 1.5px 1px #b5bbdc;
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.profile-usertitle-job {
+  text-transform: uppercase;
+  color: olive;
+  text-shadow: 1.5px 1px #b5bbdc;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.profile-userbuttons {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.profile-userbuttons .btn {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 6px 15px;
+  margin-right: 5px;
+}
+
+.profile-userbuttons .btn:last-child {
+  margin-right: 0px;
+}
+
+.profile-usermenu {
+  margin-top: 30px;
+  height:100%;
+  background-color: transparent;
+}
+
+
+
+.profile-usermenu ul li {
+  border-bottom: 1px solid #f0f4f7;
+}
+
+.profile-usermenu ul li:last-child {
+  border-bottom: none;
+}
+
+.profile-usermenu ul li a {
+  color: #293e48;
+  text-align: justify;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.profile-usermenu ul li a i {
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.profile-usermenu ul li a:hover {
+text-align: center;
+  background-color: rgba(94, 94, 95, 0.2);
+  color: black;
+  text-shadow: 1px 1px #93a3b5;
+  box-shadow: 5px 5px 5px #93a3b5;
+  -webkit-border-radius: 50px !important;
+  -moz-border-radius: 50px !important;
+  border-radius: 15px !important;
+}
+
+.profile-usermenu ul li.active {
+  border-bottom: none;
+}
+
+.profile-usermenu ul li.active a {
+  color: #5b9bd1;
+  background-color: #f6f9fb;
+  border-left: 2px solid #5b9bd1;
+  margin-left: -2px;
+}
+.profile-usermenu2 {
+  margin-top: 30px;
+  }
+
+
+.profile-usermenu2 ul li {
+  border-bottom: 1px solid #f0f4f7;
+
+}
+
+.profile-usermenu2 ul li:last-child {
+  border-bottom: none;
+}
+
+.profile-usermenu2 ul li a {
+  /*color:lightgrey;*/
+  /*background-color: rgba(4, 4, 4, 0.64);*/
+  text-align: justify;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.profile-usermenu2 ul li a i {
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.profile-usermenu2 ul li a:hover {
+  text-align: center;
+    background-color: #898a8c;
+    color: black;
+    text-shadow: 1px 1px #93a3b5;
+    box-shadow: 5px 5px 5px #93a3b5;
+    -webkit-border-radius: 50px !important;
+    -moz-border-radius: 50px !important;
+    border-radius: 15px !important;
+}
+
+.profile-usermenu2 ul li.active {
+  border-bottom: none;
+}
+
+.profile-usermenu2 ul li.active a {
+  color: #5b9bd1;
+  background-color: #f6f9fb;
+  border-left: 2px solid #5b9bd1;
+  margin-left: -2px;
+}
+
+
+/* Profile Content */
+.profile-content {
+  padding: 20px 80px 20px 50px;
+  /*background: #fff;*/
+  background-color: rgba(235, 241, 240, 0.9);
+  border-radius: 25px;
+  min-width: 800px;
+  min-height: 550px;
+}
+
+.divcontenido {
+ display: none;
+ opacity: 0;
+ /*animation-name: fadeIn;
+    -webkit-animation-name: fadeIn;
+    animation-duration: 0.4s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    visibility: visible !important;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    -webkit-animation-delay: 0s, 0.4s;
+    -webkit-animation-duration: 400ms, 400ms;
+    -webkit-animation-name: fadeIn,Goback;*/
+
+/*animation-name: Goback;
+   -webkit-animation-name: Goback;
+   animation-duration: 1s;
+   -webkit-animation-duration: 1s;
+   animation-timing-function: ease-in-out;
+   -webkit-animation-timing-function: ease-in-out;
+   visibility: visible !important;*/
+}
+
+.divcontenido img {
+  width: 350px;
+}
+
+.divcontenido li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.divcontenido li a{
+  color: #4c362e;
+}
+
+#caja3_7 img {
+  width:50px;
+}
+
+.divcontenidocaja {
+ display: none;
+
+  /*position:fixed;
+  left: 30%;*/
+  /*width: 75%;*/
+  font-size: 1.2em;
+  line-height: 2em;
+  animation-name: Goback;
+     -webkit-animation-name: Goback;
+     animation-duration: 1s;
+     -webkit-animation-duration: 1s;
+     animation-timing-function: ease-in-out;
+     -webkit-animation-timing-function: ease-in-out;
+     visibility: visible !important;
+
+}
+
+.divcontenidocaja img {
+  width:100%;
+  border-radius: 15px;
+
+}
+
+.divcontenidocaja li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.divcontenidocaja li a{
+  color: #4c362e;
+
+
+}
+
+.divcontenidoprojects {
+ display: none;
+ opacity: 0;
+
+    visibility: visible !important;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  text-align:left;
+}
+
+.divcontenidoprojects img {
+  width:500px;
+}
+
+.divcontenidoprojects li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.divcontenidoprojects li a{
+  color: #4c362e;
+
+
+}
+
+#caja1_1, #caja1_2, #caja2_1, #caja2_2, #caja2_3, #caja2_4, #caja2_5, #caja2_6, #caja3_1, #caja3_2, #caja3_3, #caja3_4, #caja3_5, #caja3_6, #caja3_7 {
+border-radius: 15px;
+border:  1px inset darkgrey;
+box-shadow: 10px 5px 5px grey;
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0.6;
+        box-shadow: 3px 3px 3px black;
+    }
+    50% {
+        opacity: 0.9;
+        box-shadow: 6px 6px 6px black;
+    }
+    75% {
+        opacity: 1;
+        box-shadow: 9px 9px 9px black;
+    }
+    100% {
+        opacity: 1;
+        box-shadow: 15px 15px 15px black;
+    }
+  }
+
+  @keyframes Goback {
+      0% {
+        box-shadow: 15px 15px 15px grey;
+      }
+      50% {
+        box-shadow: 10px 10px 10px grey;
+      }
+      75% {
+        box-shadow: 10px 10px 10px grey;
+      }
+      100% {
+        box-shadow: 15px 15px 15px lightgray;
+      }
+    }
+
+  @keyframes ComeToMe {
+      0% {
+          z-index: 1.2;
+        box-shadow: 5px 5px 5px #888888;
+                }
+      50% {
+        z-index: 2;
+      box-shadow: 7px 7px 5px #888888;
+      }
+      75% {
+        z-index: 3;
+      box-shadow: 9px 9px 5px #888888;
+          }
+      100% {
+        z-index: 5;
+        transform: scale(1.2);
+      box-shadow: 12px 12px 5px #888888;
+      }
+}
+
+
+
+@media screen and (min-width: 800px) {
+
+    body {
+      margin: auto;
+      background-image: url(../images/misty_forest_by_pavelfireman-d4mab5y.jpg);
+      background-position: center;
+      background-size: cover;
+
+    }
+
+}
