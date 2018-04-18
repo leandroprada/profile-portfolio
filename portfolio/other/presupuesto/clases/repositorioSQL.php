@@ -8,7 +8,7 @@
 		private $conn;
 
 		public function __construct() {
-			$dsn = 'mysql:host=localhost;dbname=u532595178_user;charset=utf8mb4;port:3306';
+			$dsn = 'mysql:host=mysql.hostinger.com.ar;dbname=u532595178_user;charset=utf8mb4;port:3306';
 
 			$user = "u532595178_root";
 			$pass = "Leandro01";
