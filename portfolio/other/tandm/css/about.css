@@ -1,0 +1,167 @@
+body{
+  text-align: center;
+  color:white;
+  background-color: white;
+}
+.navbar-brand{
+  font-family: 'Lobster Two', cursive;
+  font-size: 2em;
+}
+#mainNav{
+  background-color: rgba(0, 0, 0, 0.5);
+  border-color:white;
+  border-radius: 5px;
+  color:white;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+.navbar-default .navbar-brand {
+ color:white;
+}
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    font-weight: bold;
+}
+.navbar{
+  margin-bottom: 0px;
+}
+.navbar-btn{
+  border: 1px solid white;
+  margin-left: 15px;
+  background-color: inherit;
+  color: white;
+  font-weight: bolder;
+  width:100px;
+  border-radius: 8px;
+}
+.btn-default:focus, .btn-default.focus {
+  color: white;
+  background-color:transparent;
+  border-color:white;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus{
+  outline: none;
+}
+.logowill{
+  float:left;
+  display:block;
+  margin:0 23%;
+  margin-top: 10.8%;
+  width:55%;
+  height:350px;
+}
+.logowill img{
+  height: 80%;
+  width: 80%;
+  display: block;
+}
+#myModal, #myModal2{
+  color: black;
+}
+.modal-backdrop {
+  z-index: 1;
+}
+.facebooklogin{
+  border-bottom: 1px solid grey;
+  height: 50px;
+}
+.willholidaylogin, .willholidayregister{
+  margin-top: 20px;
+}
+.itemsloginwillholiday{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.willholidaybrand{
+  font-family: 'Lobster Two', cursive;
+  font-size: 40px;
+}
+#enter, #submitregister{
+  width:150px;
+}
+.modal-body-register{
+  padding-top: 0px;
+}
+.facebookrecomendation{
+  font-size: 10px;
+}
+.centro, .costado{
+  height:900px;
+}
+.centro{
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+.business-header {
+    height: 400px;
+    background: url('../images/flags.jpg') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.tagline {
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+    margin-top: 60px;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+.container{
+  color: black;
+}
+.foto1, .foto2, .foto3{
+  height:450px;
+}
+.descripcion1,.descripcion2,.descripcion3{
+  background-color: white;
+  height: 450px;
+}
+.foto1{
+  background: url("../images/personacomputadora.jpg") center center no-repeat scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.subtitulo{
+  margin-top: 200px;
+}
+.descripcion1{
+background-color: #6076BF;
+}
+.descripcion2{
+  background-color: black;
+}
+.descripcion3{
+background: #ff5f6f;
+}
+.foto2{
+  background: url('../images/gentehablando.jpg') center center no-repeat scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.foto3{
+  background: url('../images/gentebanderas.jpg') center center no-repeat scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.row{
+  width:100%;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.wrapp{
+  width:100%;
+}
+footer {
+    margin: 50px 0;
+}

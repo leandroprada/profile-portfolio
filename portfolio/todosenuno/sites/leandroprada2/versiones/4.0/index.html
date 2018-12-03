@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <head>
+    <title>Leo Prada</title>
+<meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link media="all" type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Titillium+Web"" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/ionicons.css">
+    <!--Inspiration from: https://dribbble.com/shots/1428271-iOS7-Challenge-App-->
+
+
+    </head>
+<body>
+    <div class="container row profile" id="container">
+		<div class="col-xs-12 col-md-2 center">
+			<div class="profile-sidebar">
+				<!-- SIDEBAR USERPIC -->
+				<div class="profile-userpic">
+          <a href="#" onclick="home();"><img src="images/leo_prada.jpg" style="height:150px" class="img-responsive center" alt="">
+			</a>
+						</div>
+				<!-- END SIDEBAR USERPIC -->
+				<!-- SIDEBAR USER TITLE -->
+
+        <div class="profile-usertitle">
+					<div class="profile-usertitle-name">
+  					Leo Prada
+					</div>
+					<div class="profile-usertitle-job">
+						Full Stack Web Dev
+					</div>
+				</div>
+				<!-- END SIDEBAR USER TITLE -->
+
+				<!-- SIDEBAR MENU -->
+				<div class="profile-usermenu">
+					<ul class="nav">
+
+            <li onclick="home();">
+							<a  href="#">
+							<i class="glyphicon glyphicon-home"  ></i>
+							Home </a>
+						</li>
+            <li onclick="showdiv(view1);">
+							<a  >
+							<i class="glyphicon glyphicon-list-alt" id="but_news" ></i>
+							News </a>
+						</li>
+						<li onclick="showdiv(view2);">
+							<a  >
+							<i class="glyphicon glyphicon-play" id="but_media" ></i>
+							Media </a>
+						</li>
+						<li onclick="showdiv(view3);">
+							<a >
+							<i class="glyphicon glyphicon-user" id="but_profiles"></i>
+							Profiles </a>
+						</li>
+						<li onclick="showdiv(view4);">
+							<a >
+							<i class="glyphicon glyphicon-envelope" id="but_contact"></i>
+							Contact </a>
+						</li>
+            <li onclick="showdiv(view5);">
+							<a >
+              <i class="glyphicon glyphicon-th-list" id="but_projects"></i>
+							Projects </a>
+						</li>
+					</ul>
+				</div>
+				<!-- END MENU -->
+			</div>
+		</div>
+		<div class="col-xs-12 col-md-2 center">
+
+
+        <div class="profile-usermenu2">
+            <div  class="divcontenido" id="view1">
+              <h4>Sample articles </h4>
+      					<ul class="nav">
+                <li><a  onclick="showcontent(caja1_1);"><i class="glyphicon glyphicon-list-alt"></i>&nbsp;UPI</a>  </li>
+                <li><a  onclick="showcontent(caja1_2);"><i class="glyphicon glyphicon-list-alt"></i>&nbsp;CNS</a>  </li>
+                </ul>
+              </div>
+
+            </div>
+
+
+
+        <div class="profile-usermenu2">
+            <div  class="divcontenido" id="view2">
+              <h4>Media Buzz <span class="ion-ios-camera">&nbsp;</span><span class="ion-ios-mic">&nbsp;</span><span class="ion-ios-videocam"></span></h4>
+
+              <ul class="nav">
+              <li><a  onclick="showcontent(caja2_1);"><i class="glyphicon glyphicon-play"></i>&nbsp;24 Sata</a></li>
+              <li><a  onclick="showcontent(caja2_2);"><i class="glyphicon glyphicon-play"></i>&nbsp;Glas Slavonije</a></li>
+              <li><a  onclick="showcontent(caja2_3);"><i class="glyphicon glyphicon-play"></i>&nbsp;N1</a></li>
+              <li><a  onclick="showcontent(caja2_4);"><i class="glyphicon glyphicon-play"></i>&nbsp;HRT</a></li>
+              <li><a  onclick="showcontent(caja2_5);"><i class="glyphicon glyphicon-play"></i>&nbsp;TVP</a></li>
+              <li><a  onclick="showcontent(caja2_6);"><i class="glyphicon glyphicon-play"></i>&nbsp;Other</a></li>
+                </ul>
+              </div>
+
+
+        </div><div class="profile-usermenu2">
+            <div  class="divcontenido" id="view3">
+              <h4>Profiles</h4>
+              <ul class="nav">
+              <li><a  onclick="showcontent(caja3_1);"><i class="glyphicon glyphicon-user"></i>&nbsp;Facebook</a></li>
+              <li><a  onclick="showcontent(caja3_2);"><i class="glyphicon glyphicon-user"></i>&nbsp;Linkedin</a></li>
+              <li><a  onclick="showcontent(caja3_3);"><i class="glyphicon glyphicon-user"></i>&nbsp;Wix</a></li>
+              <li><a  onclick="showcontent(caja3_4);"><i class="glyphicon glyphicon-user"></i>&nbsp;Proz</a></li>
+              <li><a  onclick="showcontent(caja3_5);"><i class="glyphicon glyphicon-user"></i>&nbsp;GitHub</a></li>
+              <li><a  onclick="showcontent(caja3_6);"><i class="glyphicon glyphicon-user"></i>&nbsp;Youtube</a></li>
+              <li><a  onclick="showcontent(caja3_7);"><i class="glyphicon glyphicon-user"></i>&nbsp;CV</a></li>
+                </ul>
+              </div>
+
+
+        </div>
+        <div class="profile-usermenu2">
+            <div  class="divcontenido" id="view4">
+              <h4>Contact</h4>
+              <ul class="nav">
+              <li><a href="skype:leandroprada"><div class="ion-social-skype">&nbsp;SKYPE</div></a></li>
+              <li><a href="intent://send/+5491154560723#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end"><div class="ion-social-whatsapp">&nbsp;Whatsapp</div></a></li>
+              <li><a href="mailto:leandroprada@gmail.com?subject='Te contacto desde tu página'" target="_blank"><div class="ion-android-mail">&nbsp;EMAIL</div></a></li>
+              <li><a href="https://goo.gl/maps/J4ZeDw9vVQL2"><div class="ion-android-pin">&nbsp;LOCATION</div></a></li>
+                </ul>
+              </div>
+
+
+        </div>
+        <div class="profile-usermenu2">
+            <div  class="divcontenido" id="view5">
+              <h4>Projects</h4>
+              <ul class="nav">
+              <li><a  onclick="showcontent(caja5_1);"><i class="glyphicon glyphicon-th-list"></i>&nbsp;A(mamá)ntame</a></li>
+              <li><a  onclick="showcontent(caja5_2);"><i class="glyphicon glyphicon-th-list"></i>&nbsp;Educ(ando)</a></li>
+              <li><a  onclick="showcontent(caja5_3);"><i class="glyphicon glyphicon-th-list"></i>&nbsp;Tandm</a></li>
+              <li><a  onclick="showcontent(caja5_4);"><i class="glyphicon glyphicon-th-list"></i>&nbsp;CTD</a></li>
+              <li><a  onclick="showcontent(caja5_5);"><i class="glyphicon glyphicon-th-list"></i>&nbsp;C-Docs</a></li>
+              <li><a  onclick="showcontent(caja5_6);"><i class="glyphicon glyphicon-th-list"></i>&nbsp;Setec Astr.</a></li>
+                </ul>
+                  </div>
+
+
+        </div>
+
+
+
+
+
+		</div>
+
+    <div class="profile-content" class="col-xs-8" >
+<div class="" id="caja0">
+  <h2>Leandro Ariel Prada</h2>
+  <h3>Web Developer Jr (HTML, CSS, MYSQL, PHP, LARAVEL, REACT, SASS, BOOTSTRAP) DC. Correspondent. Sworn translator</h3>
+  <p>I am always seeking to learn about issues which awake my interest. I have currently rediscovered that my passion for programming, can help me create awesome technical products, which require not only technical knowledge but also creativity. I am constantly updating my training. I have completed Web Full-stack Developer training. (CSS, HTML, JAVASCRIPT, BOOTSTRAP, AJAX, PHP, MYSQL, APACHE, LARAVEL)
+Currently training in Python and Django (a Python framework).</p>
+<iframe width="400" height="250" src="https://www.youtube.com/embed/Ez-BqbixZ_Y" frameborder="2" allowfullscreen></iframe>
+</div>
+
+<div class="profile-usermenu">
+    <div  class="" id="view0">
+      <ul class="nav">
+      <!-- <h4><i class="glyphicon glyphicon-hand-left"></i>&nbsp;Please Select a Section</h4> -->
+
+    </div>
+
+
+</div>
+
+
+<!--  beginning of old contents -->
+<div class="divcontenidocaja col-xs-8"  id="caja1_1" >
+
+              <h3>UPI</h3>
+              <ul>
+              <li><a href="http://www.upi.com/Business_News/Security-Industry/2002/09/09/Mourners-bid-farewell-to-Argentine-singer/46501031605401/" target="_blank">Mourners Bid Farewell to Argentine Singer.</a></li>
+              <li><a href="http://www.upi.com/Feature-Big-Macs-for-cheap-in-Argentina/57241026498763/" target="_blank">Feature: Big Macs for cheap in Argentina.</a></li>
+              <li><a href="http://www.upi.com/Business_News/Security-Industry/2002/12/06/Trash-scavenging-legalized-in-Argentina/41751039199679/" target="_blank">Trash scavenging legalized in Argentina</a></li>
+              <li><a href="http://www.upi.com/Business_News/Security-Industry/2002/11/29/Argentina-passes-law-on-presidential-vote/85371038603649/" target="_blank">Argentina passes law on presidential vote</a></li>
+              <li><a href="http://www.upi.com/Business_News/Security-Industry/2002/11/28/Argentina-seizes-bounty-of-bootleg-CDs/91721038513903/" target="_blank">Argentina seizes bounty of bootleg CDs</a></li>
+              <li><a href="http://www.upi.com/Business_News/Security-Industry/2002/11/21/Feature-Argentines-peddlers-clog-capital/91541037923525/ " target="_blank">Feature: Argentines peddlers clog capital</a></li>
+              <li><a href="http://www.upi.com/Business_News/Security-Industry/2002/11/18/Starving-children-in-once-rich-Argentina/91661037675969/" target="_blank">Starving children in once-rich Argentina</a></li>
+              <li><a href="http://www.upi.com/Business_News/Security-Industry/2002/10/21/Argentinians-saying-charge-it-again/78001035245843/   " target="_blank">Argentinians saying 'charge it' again</a></li>
+              <li><a href="http://www.upi.com/Business_News/Security-Industry/2002/10/17/Jobless-Argentine-man-returns-1500/44701034884169/" target="_blank">Jobless Argentine man returns $1,500</a></li>
+              <li><a href="http://www.upi.com/Business_News/Security-Industry/2002/06/20/Argentines-rally-this-time-peacefully/61431024617306/" target="_blank">Argentines rally, this time peacefully</a></li>
+              <li><a href="http://www.upi.com/search?ss=%22leandro+prada%22"target="_blank">View more...</a></li>
+              </ul>
+
+          </div>
+        <div class="divcontenidocaja col-xs-8"  id="caja1_2" >
+              <h3>CNS</h3>
+              <ul>
+              <li><a href="http://cnsnews.com/news/article/ahmadinejad-visits-anti-us-allies-latin-america" target="_blank">Ahmadinejad Visits <em>Anti-US</em> Allies.</a></li>
+              <li><a href="http://cnsnews.com/news/article/clashes-venezuela-over-controversial-constitutional-changes" target="_blank">Clashes in Venezuela Over Controversial Constitutional Changes</a></li>
+              <li><a href="http://cnsnews.com/news/article/argentinas-first-lady-looks-shoo" target="_blank">Argentina's First Lady Looks Like A Shoo-In</a></li>
+              <li><a href="http://cnsnews.com/news/article/venezuelas-planned-arms-purchases-leave-neighbors-unsettled" target="_blank">Venezuela's Planned Arms Purchases Leave Neighbors Unsettled</a></li>
+              <li><a href="http://cnsnews.com/news/article/dont-abstain-vote-no-chavez-opponents-urged" target="_blank">Don't Abstain, Vote 'No,' Chavez Opponents Urged</a></li>
+              <li><a href="http://cnsnews.com/news/article/argentinas-presidential-hopeful-likened-hillary-clinton" target="_blank">Argentina's Presidential Hopeful Likened to Hillary Clinton</a></li>
+              <li><a href="http://cnsnews.com/author/leandro-prada" target="_blank">View more...</a></li>
+              </ul>
+          </div>
+
+<div class="divcontenidocaja col-xs-8" id="caja2_1" >
+  <h4>24 Sata</h4>
+        <ul>
+          <li><a href="http://www.24sata.hr/news/argentinac-leandro-zaljubljen-je-u-vukovar-i-hrvaticu-josipu-348856"target="_blank">24 SATA - Leandro iz Argentine zaljubljen je u Vukovar i Hrvaticu Josipu</a>&nbsp;<a href="trad3.html" class="trad" target="_blank">Traduccion (Español)</a></li>
+          <li><a href="http://www.24sata.hr/news/facebook-ljubav-slavonka-se-zbog-decka-seli-u-argentinu-245470" target="_blank">Facebook ljubav: Slavonka se zbog dečka seli u Argentinu</a></li>
+          <li><a href="https://www.pixsell.hr/agencija/pxl-standard-news/vukovar-argentinac-leandro-prada-postao-slavonski-zet-galerija-290297/" target="_blank">Vukovar -- Argentinac Leandro Prada postao slavonski zet</a></li>
+        </ul>
+    </div>
+<div class="divcontenidocaja col-xs-8" id="caja2_2" >
+  <h4>Glas Slavonije</h4>
+        <ul>
+          <li><a href="http://www.glas-slavonije.hr/142756/4/Na-Faceu-mu-napisala-My-man-a-sad-se-za-njega-udaje" target="_blank">Na Faceu mu napisala My man, a sad se za njega udaje</a>&nbsp;<a href="trad1.html" class="trad" target="_blank">Traduccion (Español)</a></li>
+          <li><a href="http://www.glas-slavonije.hr/180512/4/Slavonka-Josipa-rekla-da-Leandru-i-seli-u-Argentinu" target="_blank">Slavonka Josipa rekla "da"
+        Leandru i seli u Argentinu</a>&nbsp;<a href="trad2.html" class="trad" target="_blank">Traduccion (Español)</a></li>
+          <li><a href="http://www.glas-slavonije.hr/259217/4/Spojio-ih-Fejs-Josipa-u-Buenos-Airesu-radi-Leu-nudili-posao-vozaca-u-RH-veleposlanstvu" target="_blank">Spojio ih Fejs- Josipa u
+        Buenos Airesu radi, Leu nudili
+        posao vozača u RH veleposlanstvu</a></li>
+        </ul>
+      </div>
+
+<div class="divcontenidocaja col-xs-8" id="caja2_3" >
+    <h4>N1</h4>
+        <ul><li><a href="http://hr.n1info.com/a23459/Lifestyle/Novi-dan-donosi-pricu-o-ljubavi-Hrvatske-i-Argentine.html" target="_blank">Ljubav nema granice: Ovaj je Argentinac poludio za Hrvaticom</a></li>
+        <li><a href="https://youtu.be/2ZfYOeTWRrc" target="_blank"><span class="ion-social-youtube" text-decoration="none" color="red">&nbsp;</span>Entrevista en N1 Croacia. </a></li>
+        </ul>
+    </div>
+<div class="divcontenidocaja col-xs-8" id="caja2_4" >
+  <h4>Other</h4>
+        <ul>
+        <li><a href="http://vozdecroacia.hrt.hr/nuestras-noticias/individual-noticias/croacia-hoy-magazin/croacia-hoy-magazin-2014-11-23/"target="_blank">Croacia Hoy- Magazín -
+        23.11.2014</a></li>
+        <li><a href="http://croacias1.rssing.com/chan-10407509/all_p6.html#item102"target="_blank">Argentino enamorado de Vukovar y de una Croata
+        </a></li>
+        <li><a href="http://www.croexpress.eu/vijest.php?vijest=9930">ARGENTINAC ZALJUBLJEN U SVE HRVATSKO Naučio jezik, oženio se Slavonkom, prevodi knjige o Domovinskom ratu na španjolski</a></li>
+          <li><a href="https://soundcloud.com/leandro-prada/saludo-de-fin-de-ano-croacias-totalestarget=" target="_blank">Saludo de Fin de Año - Croacias Totales</a></li>
+        </ul>
+      </div>
+
+<div class="divcontenidocaja col-xs-8" id="caja2_5" >
+  <h4>HRT</h4>
+        <ul>
+        <li><a href="https://youtu.be/lImDXjo3TGU" target="_blank"><span class="ion-social-youtube" text-decoration="none" color="red">&nbsp;</span>Idemo Na put s Goranom Milicem</a></li>
+        <li><a href="https://youtu.be/vDj989K_5r4"target="_blank"><span class="ion-social-youtube" text-decoration="none" color="red">&nbsp;</span>Idemo Na put s Goranom Milicem - 2</a></li>
+        </ul>
+      </div>
+
+<div class="divcontenidocaja col-xs-8" id="caja2_6" >
+  <h4>TVP</h4>
+      <ul>
+        <li><a href="https://www.youtube.com/watch?v=rnzojncT_2U"target="_blank"><span class="ion-social-youtube" text-decoration="none" color="red">&nbsp;</span>El Punto Rojo</a></li>
+      <li><a href="https://www.youtube.com/watch?v=FxMSkqzU5pg"target="_blank"><span class="ion-social-youtube" text-decoration="none" color="red">&nbsp;</span>El Punto Rojo</a></li>
+      </ul>
+    </div>
+
+
+  <div class="divcontenidocaja col-xs-8" id="caja3_1" >
+    <a href="https://www.facebook.com/leandroprada" target="_blank">
+      <span class="ion-social-facebook">&nbsp;FACEBOOK</span>
+
+    <img alt="sitio" src="images/facebook.jpg"/>
+      </a>
+    </div>
+  <div class="divcontenidocaja col-xs-8" id="caja3_2" >
+    <a href="https://www.linkedin.com/in/leandro-prada-2411548 "target="_blank">
+  <span class="ion-social-linkedin">&nbsp;LINKEDIN</span>
+      <img alt="linkedin" src="images/linkedin.jpg"/>
+      </a>
+    </div>
+  <div class="divcontenidocaja col-xs-8" id="caja3_3" >
+    <a href="http://LEANDROPRADA.WIX.COM/misitio" target="_blank">
+  <br>
+  <span>WIX</span>
+      <img alt="sitio" src="images/sitio.jpg"/>
+      </a>
+    </div>
+  <div class="divcontenidocaja col-xs-8" id="caja3_4" >
+    <a href="http://www.proz.com/profile/21723"target="_blank">
+  <span>PROZ</span>
+      <img alt="proz" src="images/proz.jpg"/>
+      </a>
+    </div>
+  <div class="divcontenidocaja col-xs-8" id="caja3_6" >
+    <a href="https://www.youtube.com/channel/UC-4qbcWSxaHPG2rqoDFGD8w"target="_blank">
+  <span>YouTube</span>
+      <img alt="youtube" src="images/youtube.jpg"/>
+      </a>
+    </div>
+    <div class="divcontenidocaja col-xs-8" id="caja3_5" >
+      <a href="https://github.com/leandroprada"target="_blank">
+    <span class="ion-social-github">GitHub</span>
+        <img alt="proz" src="images/github.jpg"/>
+        </a>
+      </div>
+
+  <div class="divcontenidocaja col-xs-8" id="caja3_7" >
+    <!-- <h5 >Resume - CV: </h5> -->
+
+
+          <div class="contact-details" display="inline-block">
+            <a href="https://drive.google.com/open?id=0BzbBtcSWZM8VUy1VbFR6ZUR3Uzg" target="_blank">CV - RESUME
+              <img alt="drive" src="images/drive.jpg"/></a>
+            <a href="https://drive.google.com/open?id=0BzbBtcSWZM8VMHNEeXhsVjZtMTA" target="_blank">En Español <img alt="cvesp" src="images/cvesp.jpg"  /></a>
+            <a href="https://drive.google.com/open?id=0BzbBtcSWZM8VdFpSa1FKT2Y4OXM" target="_blank">In English <img alt="cveng" src="images/cveng.jpg" /></a>
+          </div>
+    </div>
+
+
+    <div class="divcontenidoprojects col-xs-8 row" id="caja5_1" >
+
+    <div class="col-md-4">
+      <h2>Baby Feeding Register</h2>
+      <p>In this project I developed a webpage where the mothers who are breastfeeding can record the duration and quality of breast feeding including among optional parameters was the baby fed by bottle.
+      I created several aids, based on comments from users, including the today and now buttons, and a stopwatch right on top. </p>   </div>
+      <div class="col-xs-12 col-md-8">
+        <a href="http://bfr.hol.es" target="_blank">
+         <img alt="sitio" src="images/BFR.png" >
+           </a>
+      </div>
+<div class="">
+  Click on the image above to visit the website.
+</div>
+      </div>
+
+      <div class="divcontenidoprojects col-xs-8 row" id="caja5_2" >
+
+    <div class="col-md-4">
+<h2>Education Social Network</h2>
+<p>In this project I developed a mock model for a website wher education professionals can meet and share information. </p>    </div>
+<div class="col-xs-12 col-md-8">
+  <a href="https://educ-ando.firebaseapp.com/" target="_blank">
+   <img alt="sitio" src="images/educando.jpg"/>
+     </a>
+</div>
+<div class="">
+  Click on the image to visit the website.
+</div>
+      </div>
+
+      <div class="divcontenidoprojects col-xs-8 row" id="caja5_3" >
+
+      <div class="col-md-4">
+    <h2>Language Social Network</h2>
+    <p>Working with SCRUM agile work, I was part of a team which created this social network for people who want to practice a language. We added several requirements in each sprint as the customer’s needs developed. Including registering in the database users and posts, and native AJAX.
+ </p>    </div>
+ <div class="col-xs-12 col-md-8">
+   <a href="http://tandm.esy.es" target="_blank">
+    <img alt="sitio" src="images/tandm.jpg"/>
+      </a>
+ </div>
+    <div class="">
+    Click on the image to visit the website.
+    </div>
+        </div>
+
+        <div class="divcontenidoprojects col-xs-8 row" id="caja5_4" >
+
+        <div class="col-md-4">
+      <h2>Expense tracking</h2>
+      <p>A web app to register expenditures and income. With the help of Javascript the menues are interactive and depending and which category you select, a list of sub-categories is deployed.
+   </p>    </div>
+   <div class="col-xs-12 col-md-8">
+     <a href="http://cargotusdatos.hol.es/presupuesto" target="_blank">
+      <img alt="sitio" src="images/ctd.jpg"/>
+        </a>
+   </div>
+      <div class="col-xs-12">
+      Click on the image to visit the website.
+      </div>
+          </div>
+
+          <div class="divcontenidoprojects col-xs-8 row" id="caja5_5" >
+
+          <div class="col-md-4">
+        <h2>Engineering EDMS CRM</h2>
+        <p>C-Documents is the ideal Document Management Solution for SMEs. It can provide with flexible numbering system, easily configured for each client’s need.
+It was developed with more than 15 years of background from major O&G contractors.
+
+     </p>    </div>
+     <div class="col-xs-12 col-md-8">
+       <a href="http://cdocuments.wordpress.com" target="_blank">
+        <img alt="sitio" src="images/c-documents.jpg"/>
+          </a>
+     </div>
+        <div class="">
+        Click on the image to visit the website.
+        </div>
+            </div>
+
+            <div class="divcontenidoprojects col-xs-8 row" id="caja5_6" >
+
+          <div class="col-md-4">
+        <h2>Personal Website</h2>
+        <p>During the design of my website, I have created several versions, from the simplest HTML with no CSS to a more complex html map with clickable hidden sections.
+
+     </p>    </div>
+     <div class="col-xs-12 col-md-8">
+       <a href="https://setecastronomy-d6398.firebaseapp.com/" target="_blank">
+        <img alt="sitio" src="images/mysite.png" >
+          </a>
+     </div>
+        <div class="">
+        Click on the image to visit the website.
+        </div>
+            </div>
+
+
+
+
+
+
+
+
+</div>
+</div>
+<script src="js/menu.js" charset="utf-8"></script>
+</body>
+
+
+</html>

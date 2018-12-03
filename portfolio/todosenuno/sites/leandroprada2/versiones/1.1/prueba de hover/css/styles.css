@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Black+Ops+One);
+@import url(https://fonts.googleapis.com/css?family=Varela&subset=latin,latin-ext);
+*{
+  box-sizing: border-box;
+}
+
+body{font-family: 'Varela', sans-serif;
+ font-size: 18px;
+max-width: 960px;
+width:960px;
+  
+   background-attachment: fixed;
+
+
+}
+
+header {background: none;
+background: linear-transient (blue,red);
+
+}
+section {
+  position: relative;
+}
+.foto{
+float: left;
+  opacity: 0.5;
+}
+
+.foto:hover{
+  visibility: visible;
+  opacity: 1;
+}
+.titulo{
+  position: relative;
+  top: 50%;
+  right: 50%;
+  transform: translate(-50%,-50%);
+z-index: 2;
+    visibility: visible;
+opacity: 0.5;
+}
+
+.titulo:hover{
+  visibility: visible;
+  opacity: 1;
+}
+.clear {clear:both}

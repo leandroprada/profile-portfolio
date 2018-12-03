@@ -1,0 +1,225 @@
+@import url(https://fonts.googleapis.com/css?family=Black+Ops+One);
+@import url(https://fonts.googleapis.com/css?family=Varela&subset=latin,latin-ext);
+*{
+  box-sizing: border-box;
+}
+
+body{font-family: 'Varela', sans-serif;
+ font-size: 18px;
+/*max-width: 960px;*/
+width:960px;
+max-height: 700px;
+background-image: url(../images/code.jpg);
+
+
+}
+
+ p{text-decoration: none;
+  margin: auto;
+  position: absolute;;
+  /*top: 50%;*/
+  /*left: 50%;*/
+  /*transform: translate(-50%,-10%);*/
+}
+.profile img{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+/*float: left;*/
+}
+
+.header h1 {
+  margin-left: 100px;
+}
+.profile {
+  float: left;
+  position: relative;
+  width: 100px;
+  height:100%;
+
+
+}
+
+.cuerpo {
+  position: relative;
+  }
+.cuerpo1 {
+  float: left;
+  width:25%;
+  min-height: 250px;
+  background-color: rgba(205, 220, 57, 0.25);
+ position: relative;
+ /*border: dotted 1px rgba(0, 0, 0  , 0.5);*/
+
+}
+
+.cuerpo2 {
+  float: left;
+  width:75%;
+min-height: 250px;
+  background-color: rgba(139, 195, 74, 0.28);
+
+
+/*max-height: 350px;*/
+  /*background-color: rgba(127, 16, 0, 0.5);*/
+}
+.cuerpo2 h2 {
+  padding-left: 10px;
+
+}
+
+h1 {font-family: "Black Ops One";
+font-size: 25px;
+
+}
+h4 {margin:0;
+  padding-left: 5px;
+}
+h3 {font-family: "Black Ops One";
+  padding-left: 10px;
+margin-bottom: 0;
+margin-top: 0;
+}
+
+.media {
+  font-size: 12px;
+border: dotted 1px rgba(0, 0, 0  , 0.5);
+}
+.articles1, .articles2 {
+  font-size: 14px;
+}
+.articles1 {
+  float: left;
+  /*width: 40%;*/
+  width:  50%;
+/*background-color: rgba(124, 53, 131, 0.47);*/
+top:20px;
+
+}
+.articles2 {
+  float: right;
+  /*width: 40%;*/
+  width: 50%;
+  /*background-color: rgba(250, 241, 149, 0.59);*/
+  top:20px;
+
+}
+.link_profile {
+position: relative;
+  color: #011b0a;
+  margin-bottom: 10px;
+  min-height:25%;
+  border: dotted 1px rgba(0, 0, 0  , 0.5);
+ /*background-color: rgba(249, 206, 78, 0.53);*/
+ /*z-index: 1;*/
+}
+
+
+
+.texto_profile {
+  margin: auto;
+  /*float:left;*/
+  position: absolute;
+  top:40%;
+  left:25%;
+
+  /*transform: translate(-50%,50%);*/
+  /*top: 25%;*/
+  text-align: center;
+  visibility: visible;
+  opacity: 1;
+  z-index: 3;
+}
+
+.pag:hover  .texto_profile {
+  visibility: hidden;
+  opacity: 0;
+
+}
+
+
+
+.profile h2 {
+  margin: 0;
+}
+.pag{position: relative;
+  display: block;
+  max-width:250px;
+  max-height: 25%;
+  /*margin-bottom: 10px;*/
+  /*background-color: rgba(255, 184, 184, 0.7);*/
+}
+.pag img{
+  float: none;
+  width: 100%;
+  visibility: visible;
+  opacity: 0.5  ;
+  /*z-index: 1;*/
+}
+
+.link_profile:hover img{
+  visibility: visible;
+  opacity: 1;
+
+}
+.map {
+  height:100%;
+}
+.cv2 a{
+  text-decoration: none;
+}
+
+
+/*.padre_media{
+  position:relative;
+
+  float: right;
+  width: 700px;
+  height: 300px;
+  background-color: rgba(17, 13, 88, 0.43);
+}
+.sec_media1 {
+  float: right;
+  width: 100%;
+  height: 50%;
+background-color: rgba(124, 53, 131, 0.47);
+}
+.sec_media2 {
+position: absolute;
+top:50%;
+  width: 100%;
+  height: 50%;
+  background-color: rgba(250, 241, 149, 0.59);
+
+}*/
+.clear {
+  clear:both;
+}
+
+
+footer{height:8.5%;
+  position: fixed;
+  bottom: 5px;
+  width: 960px;
+  /*border: solid 3px red;*/
+  background-color: rgba(139, 195, 74, 0.48);
+}
+
+.whatsapp{
+  height:100%;
+}
+
+
+.cv1 img, .cv2 img {
+  height: 50px;
+}
+.cv1 h2 {
+  margin: 0;
+  font-size: 16px;
+}
+.cv1 {float: left;}
+.cv2 {
+  margin-left: 5%;
+  float: left;
+}
