@@ -12,11 +12,65 @@ a {
   -o-transition: .3s all ease;
   transition: .3s all ease;
   text-decoration: none;
+  
 }
+
 
 a:hover {
   text-decoration: none;
 }
+
+
+
+a.a_twitter:link {
+	padding: 8px;
+	color: lightgray;
+	text-shadow: 2px 2px darkgray;
+   }
+
+   a.a_twitter:visited {
+	color:#38A1F3;
+}
+
+a.a_twitter:hover {
+	padding: 12px;
+	background-color:#38A1F3;
+	color:white;
+}
+
+a.a_facebook:link {
+	padding: 8px;
+	color: lightgray;
+	text-shadow: 2px 2px darkgray;
+   }
+
+   a.a_facebook:visited {
+	color:#3b5998;
+}
+
+a.a_facebook:hover {
+	padding: 12px;
+	background-color:#3b5998;
+	color:white;
+}
+
+a.a_linkedin:link {
+	padding: 8px;
+	color: lightgray;
+	text-shadow: 2px 2px darkgray;
+   }
+
+   a.a_linkedin:visited {
+	color:#0077B5;
+}
+
+a.a_linkedin:hover {
+	padding: 12px;
+	background-color:#0077B5;
+	color:white;
+}
+
+
 
 h1, h2, h3, h4, h5 {
   color: #000;
@@ -67,7 +121,7 @@ textarea.form-control {
 
 .btn.btn-outline-primary {
   border-width: 2px;
-  color: #F73859;
+  color: #d19500;
 }
 
 .btn.btn-outline-primary:hover, .btn.btn-outline-primary:focus, .btn.btn-outline-primary:active {
@@ -115,7 +169,7 @@ header .navbar-brand.absolute {
 }
 
 header .navbar-brand span {
-  color: #F73859;
+  color: #d19500;
 }
 
 header .navbar {
@@ -181,12 +235,12 @@ header .navbar .dropdown-menu:before {
 }
 
 header .navbar .dropdown-menu .dropdown-item:hover {
-  background: #F73859;
+  background: #d19500;
   color: #fff;
 }
 
 header .navbar .dropdown-menu .dropdown-item.active {
-  background: #F73859;
+  background: #d19500;
   color: #fff;
 }
 
@@ -196,7 +250,7 @@ header .navbar .dropdown-menu a {
 }
 
 header .navbar .cta-btn a {
-  background: #F73859;
+  background: #d19500;
   color: #000 !important;
   padding-left: 20px !important;
   padding-right: 20px !important;
@@ -291,7 +345,7 @@ body.offcanvas-open .site-wrap {
 }
 
 .offcanvas_menu ul li.active a {
-  color: #F73859;
+  color: #f79737;
 }
 
 .offcanvas_menu ul.social li {
@@ -305,7 +359,7 @@ body.offcanvas-open .site-wrap {
 }
 
 .offcanvas_menu ul.social li a:hover {
-  opacity: .5;
+  opacity: .95;
 }
 
 .offcanvas_menu ul.social li:first-child a {
@@ -346,7 +400,7 @@ main {
 
 .home-button {
   top: 20px;
-  color: #F73859;
+  color: #f79737;
   font-size: 20px;
   position: absolute;
 }
@@ -391,7 +445,7 @@ main {
   left: 0;
   bottom: 0;
   right: 0;
-  background: #F73859;
+  background: #d19500;
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
@@ -497,7 +551,7 @@ main {
 }
 
 .site-subscribe {
-  background: #F73859;
+  background: #d19500;
   padding: 2em 0;
 }
 
@@ -660,7 +714,7 @@ main {
 
 .custom-media .icon span {
   font-size: 70px;
-  color: #F73859;
+  color: #d19500;
 }
 
 .custom-media h3 {
@@ -692,7 +746,7 @@ main {
 
 .custom-icon {
   font-size: 70px;
-  color: #F73859;
+  color: #d19500;
 }
 
 /* Owl Carousel */
@@ -982,7 +1036,7 @@ main {
   position: relative;
   width: 0px;
   font-size: 30px;
-  color: #F73859;
+  color: #d19500;
 }
 
 .load-more {
@@ -995,7 +1049,7 @@ main {
 }
 
 .load-more:hover {
-  background: #F73859;
+  background: #d19500;
   color: #fff;
 }
 
@@ -1035,7 +1089,7 @@ main {
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
-  background: #F73859;
+  background: #d19500;
 }
 
 .text-black {
@@ -1064,7 +1118,7 @@ main {
 
 .media-feature .icon {
   font-size: 60px;
-  color: #F73859;
+  color: #d19500;
 }
 
 .media-feature h3 {
@@ -1079,7 +1133,7 @@ main {
   -ms-transform: scale(1.05);
   transform: scale(1.05);
   z-index: 2;
-  border-bottom: 10px solid #F73859;
+  border-bottom: 10px solid #d19500;
 }
 
 .media-custom {
@@ -1184,7 +1238,7 @@ main {
 }
 
 .site-footer a {
-  color: #F73859;
+  color: #d19500;
   border-bottom: 1px solid transparent;
 }
 
